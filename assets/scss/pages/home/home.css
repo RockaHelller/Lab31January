@@ -1,0 +1,555 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#nav .all {
+  height: 700px;
+  background: no-repeat;
+  background-size: cover;
+}
+#nav .all .layer {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+}
+#nav .all .layer .nav-bar .top {
+  margin-bottom: 100px;
+}
+#nav .all .layer .nav-bar .top .row {
+  justify-content: space-between;
+}
+#nav .all .layer .nav-bar .top .row .left a {
+  text-decoration: none;
+}
+#nav .all .layer .nav-bar .top .row .left a h1 {
+  margin-bottom: 0rem !important;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+}
+#nav .all .layer .nav-bar .top .row .left a h1 span {
+  font-size: 24px;
+  color: #feb900;
+  font-family: "Roboto", sans-serif;
+}
+#nav .all .layer .nav-bar .top .row .rright .test {
+  display: flex;
+  height: 100%;
+  justify-content: end;
+  align-items: center;
+}
+#nav .all .layer .nav-bar .top .row .rright .test .right a {
+  padding: 0px 27px;
+  letter-spacing: 0.1em;
+}
+#nav .all .layer .nav-bar .top .row .rright .test .right a span {
+  text-decoration: none;
+  font-size: 12px;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 3px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.6);
+}
+#nav .all .layer .nav-bar .top .row .rright .test .right a span:hover {
+  transition: 0.2s;
+  color: white;
+}
+#nav .all .layer .nav-bar .top .row .rright .test .right a span::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #feb900;
+  transform-origin: bottom left;
+  transition: transform 0.2s ease-in-out;
+}
+#nav .all .layer .nav-bar .top .row .rright .test .right a span:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+#nav .all .layer .nav-bar .top .row .rright .test .right a .line {
+  border-bottom: 3px solid #feb900 !important;
+  color: white;
+}
+#nav .all .layer .nav-bar .top .row .rright .test .right a .line::after {
+  height: 0px;
+}
+#nav .all .layer .nav-bar .top .row .rright .test .right a .line:hover::after {
+  width: 100%;
+}
+#nav .all .layer .nav-bar .top .row .hamburger-menu {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+#nav .all .layer .nav-bar .top .row .hamburger-menu i {
+  color: white;
+}
+#nav .all .layer .nav-bar .center .div {
+  text-align: center;
+}
+#nav .all .layer .nav-bar .center .div .first {
+  margin: 0rem !important;
+  font-family: "Roboto", sans-serif;
+  font-size: 56px;
+  font-weight: 600;
+  color: white;
+  width: 100%;
+}
+#nav .all .layer .nav-bar .center .div .second {
+  font-family: "Roboto", sans-serif;
+  font-size: 56px;
+  font-weight: 600;
+  color: white;
+  width: 100%;
+}
+#nav .all .layer .nav-bar .center .div .lineee {
+  display: flex;
+  justify-content: center;
+}
+#nav .all .layer .nav-bar .center .div .lineee .line {
+  width: 8%;
+  height: 5px;
+  background-color: #feb900;
+}
+#nav .all .layer .nav-bar .center .bottom {
+  padding: 0px 26%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+#nav .all .layer .nav-bar .center .bottom p {
+  color: white;
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 100%;
+}
+#nav .all .layer .nav-bar .center .button-bottom {
+  text-align: center;
+}
+#nav .all .layer .nav-bar .center .button-bottom button {
+  border-radius: 50px;
+  border: 2px solid #feb900;
+  background-color: transparent;
+  transition: 0.5s;
+}
+#nav .all .layer .nav-bar .center .button-bottom button:hover {
+  background-color: #feb900;
+}
+#nav .all .layer .nav-bar .center .button-bottom button p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  padding: 12px 40px;
+  color: white;
+  font-weight: 600;
+}
+
+.background {
+  background-color: #f5f6f7;
+}
+.background #constructions .top {
+  display: flex;
+  justify-content: center;
+}
+.background #constructions .top h1 {
+  font-size: 32px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 0px !important;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+.background #constructions .top .lineee {
+  width: 80px;
+  height: 2px;
+  padding: 0px 10px;
+}
+.background #constructions .top .lineee .line {
+  width: 100%;
+  height: 1.5px;
+  background-color: #feb900;
+}
+.background #constructions p {
+  text-align: center;
+  font-size: 16px;
+  color: #364D59;
+  width: 50%;
+  margin-right: 0px !important;
+  margin-left: 25%;
+}
+.background #constructions-list .item {
+  text-decoration: none;
+  background-color: white;
+  padding: 40px 30px;
+}
+.background #constructions-list .item .top .icon {
+  font-size: 40px;
+  color: #52565e;
+  background-color: #f0f1f2;
+  border-radius: 50px;
+}
+.background #constructions-list .item .paragraph h3 {
+  padding-bottom: 8px;
+  font-size: 22px;
+  border-bottom: 4px solid #ebebed;
+  display: inline-block;
+  color: #364d59;
+}
+.background #constructions-list .item .paragraph p {
+  color: #364d59;
+}
+.background #constructions-list .item .more a {
+  color: #feb900;
+  text-decoration: none;
+}
+.background #constructions-list .item .more i {
+  color: #feb900;
+  font-size: 12px;
+}
+.background #constructions-list .item:hover .icon {
+  background-color: #feb900;
+  transition: 0.3s;
+}
+.background #constructions-list .item:hover h3 {
+  border-color: #feb900;
+  transition: 0.3s;
+}
+.background #projects .categories {
+  text-align: center;
+}
+.background #projects .categories a {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  padding: 0px 10px;
+  transition: 0.3s;
+}
+.background #projects .categories a:hover {
+  color: #feb900;
+}
+.background #projects .categories .first {
+  color: #feb900;
+}
+.background #projects #b {
+  display: none;
+}
+.background #projects #content:hover ~ #b {
+  display: block;
+}
+.background #projects .list .item {
+  overflow: hidden;
+}
+.background #projects .list .item .div-item {
+  position: relative;
+  transition: 0.3s;
+}
+.background #projects .list .item .div-item img {
+  height: 312px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.background #projects .list .item .div-item .paragraph {
+  opacity: 0;
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  transition: all ease-in-out 0.3s;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+}
+.background #projects .list .item .div-item .paragraph .corner {
+  background-color: #feb900;
+  position: absolute;
+  color: white;
+  margin: 10px;
+  padding: 5px;
+  z-index: 1;
+  font-size: 14px;
+}
+.background #projects .list .item .div-item .paragraph .icons {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 10px;
+}
+.background #projects .list .item .div-item .paragraph .icons i {
+  font-size: 22px;
+}
+.background #projects .list .item .div-item .paragraph .bottom {
+  position: absolute;
+  bottom: 10px;
+  left: 16%;
+  color: rgba(255, 255, 255, 0.8);
+}
+.background #projects .list .item .div-item .paragraph:hover {
+  display: block;
+  opacity: 1;
+}
+.background #projects .list .item .div-item:hover {
+  transform: scale(1.1);
+  display: block;
+}
+
+footer {
+  background-color: #fefaf3;
+  color: white;
+}
+footer .image {
+  background: no-repeat;
+  background-size: cover;
+}
+footer .image .layer {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 100%;
+  width: 100%;
+}
+footer .image .layer #service-media .all {
+  padding: 60px 0px 0px 0px;
+}
+footer .image .layer #service-media .all .item1 .list {
+  line-height: 26px;
+}
+footer .image .layer #service-media .all .item1 .list .top-list h6 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  font-family: "Roboto", sans-serif;
+}
+footer .image .layer #service-media .all .item1 .list .bottom-list .top p {
+  font-size: 14px;
+  line-height: 6px;
+  font-family: "Roboto", sans-serif;
+}
+footer .image .layer #service-media .all .item1 .list .bottom-list .center p {
+  font-size: 14px;
+  line-height: 6px;
+  font-family: "Roboto", sans-serif;
+}
+footer .image .layer #service-media .all .item1 .list .bottom-list .bottom a {
+  font-size: 18px;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  line-height: 1;
+  margin-right: 8px;
+  border-radius: 4px;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+  padding: 10px;
+  margin-right: 0px !important;
+}
+footer .image .layer #service-media .all .item1 .list .bottom-list .bottom a i {
+  color: white;
+  font-size: 18px;
+}
+footer .image .layer #service-media .all .item .list {
+  line-height: 18px;
+}
+footer .image .layer #service-media .all .item .list .top-list h6 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+}
+footer .image .layer #service-media .all .item .list .bottom-list ul {
+  list-style: none;
+  padding-left: 0px !important;
+}
+footer .image .layer #service-media .all .item .list .bottom-list ul li {
+  padding: 8px 0px;
+}
+footer .image .layer #service-media .all .item .list .bottom-list ul li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  font-weight: 400;
+}
+footer .image .layer #rights .all {
+  padding: 20px 0px;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  width: 87%;
+  margin-left: 6%;
+  margin-bottom: 0px !important;
+}
+footer .image .layer #rights .all .first {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+footer .image .layer #rights .all .second {
+  text-align: center;
+  font-size: 13px;
+}
+footer .image .layer #rights .all .second a {
+  text-decoration: none;
+  color: #feb900;
+  font-size: 13px;
+}
+
+/*#region nav*/
+@media all and (min-width: 992px) and (max-width: 3840px) {
+  #nav .all {
+    height: 700px;
+    background: no-repeat;
+    background-size: cover;
+  }
+  #nav .all .hamburger-menu {
+    justify-content: end;
+    align-items: center;
+    display: none !important;
+  }
+  #nav .all .hamburger-menu i {
+    color: white;
+  }
+}
+@media screen and (max-width: 992px) {
+  #nav .all {
+    height: 700px;
+    background: no-repeat;
+    background-size: cover;
+  }
+  #nav .all .rright {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #nav .right a {
+    padding: 0px 10px !important;
+    letter-spacing: 0.1em;
+  }
+  #nav .center .div {
+    text-align: center;
+  }
+  #nav .center .div .first {
+    margin: 0rem !important;
+    font-family: "Roboto", sans-serif;
+    font-size: 40px !important;
+    font-weight: 600;
+    color: white;
+    width: 100%;
+  }
+  #nav .center .div .second {
+    font-family: "Roboto", sans-serif;
+    font-size: 40px !important;
+    font-weight: 600;
+    color: white;
+    width: 100%;
+  }
+  #nav .center .div .lineee {
+    display: flex;
+    justify-content: center;
+  }
+  #nav .center .div .lineee .line {
+    width: 8%;
+    height: 5px;
+    background-color: #feb900;
+  }
+  #nav .center .bottom {
+    padding: 0px 26%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  #nav .center .bottom p {
+    color: white;
+    font-size: 15px !important;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    width: 100%;
+  }
+  #nav .center .button-bottom {
+    text-align: center;
+  }
+  #nav .center .button-bottom button {
+    border-radius: 50px;
+    border: 2px solid #feb900;
+    background-color: transparent;
+  }
+  #nav .center .button-bottom button p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    padding: 12px 40px;
+    color: white;
+    font-weight: 600;
+  }
+}
+@media screen and (max-width: 576px) {
+  .row {
+    padding-top: 24px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .row .logo {
+    width: 50%;
+  }
+  .row .hamburger-menu {
+    width: 50%;
+  }
+}
+/*#endregion*/
+/*#region constructions*/
+@media screen and (max-width: 1000px) {
+  #constructions h1 {
+    font-size: 26px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 0px !important;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+  }
+  #constructions .lineee {
+    width: 80px;
+    height: 2px;
+    padding: 0px 10px;
+  }
+  #constructions .lineee .line {
+    width: 100%;
+    height: 1.5px;
+    background-color: #feb900;
+  }
+  #constructions p {
+    text-align: center;
+    font-size: 14px;
+    color: #364D59;
+  }
+}
+/*#endregion*/
+/*#region footer*/
+@media screen and (max-width: 992px) {
+  footer #rights .all {
+    padding: 20px 0px;
+    border-top: 1px solid #eceae1;
+    width: 70%;
+    margin-left: 15%;
+  }
+  footer #rights .all .item1 {
+    text-align: center !important;
+  }
+  footer #rights .all .item1 p {
+    font-size: 12px;
+    color: #b6b6b5;
+  }
+  footer #rights .all .item1 p span {
+    color: #6d6a6a;
+  }
+  footer #rights .all .item2 {
+    text-align: center !important;
+  }
+  footer #rights .all .item3 {
+    text-align: center !important;
+  }
+}
+/*#endregion*//*# sourceMappingURL=home.css.map */
